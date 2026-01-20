@@ -2218,13 +2218,6 @@ async function clipboard(text) {
         minx = $("log_cont").clientWidth;
         $("log_body").scrollTop = $("log_body").scrollHeight;
         //Move all bonzis out of the way
-        Object.keys(agents).forEach((agent) => {
-            agent = agents[agent];
-            if (agent.x < $("log_cont").clientWidth) {
-                agent.x = $("log_cont").clientWidth;
-                agent.update();
-            }
-        });
     }
     function closelog() {
         $("log_cont").style.display = "none";
