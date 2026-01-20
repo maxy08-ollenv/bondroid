@@ -956,7 +956,7 @@ async function clipboard(text) {
                 $(this.id + "t").innerHTML = linkify(write);
                 pushlog(
                     "<font style='color:gray;font-size:14px;padding:2px;'>"+getCurrentTime()+"</font>" + "<br>" + 
-                    "<font color='" +
+                    "<font style="text-shadow: 0px 0px 5px white;" color='" +
                         this.pub.color +
                         "'>" +
                         this.pub.name +
@@ -1072,7 +1072,7 @@ async function clipboard(text) {
                     pushlog(
                         "<font style='color:gray;font-size:14px;padding:2px;'>"+getCurrentTime()+"</font>" + 
                         "<br>" + 
-                        "<font color='" +
+                        "<font style="text-shadow: 0px 0px 5px white;" color='" +
                             this.pub.color +
                             "'>" +
                             this.pub.name +
