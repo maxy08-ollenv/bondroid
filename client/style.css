@@ -741,9 +741,8 @@ span .bubble_text{
 #log_cont{
     top: 0;
     left: 0;
-    width: 350px;
-    max-width: calc(100% - 200px);
-    height: calc(100% - 32px);
+    width: 100%;
+    height: 100%;
 }
 .msWindow_cont{
     z-index: 20;
