@@ -428,7 +428,8 @@ The Main UI is much simpler
     user-select: none;
     position: absolute;
     width: 100%;
-    height: 32px;
+    height: 36px;
+    left: 0px;
     bottom: 0;
     z-index: 2;
     background-color: #442D7E;
@@ -854,9 +855,9 @@ span .bubble_text{
 }
 .topbarmobile {
     position:relative;
-    background: #ffffff;
+    background: linear-gradient(white, #0000000f 60%, #00000014 10%, #00000030 100%, transparent), #ffffff;
     color:#000000;
-    height:20px;
+    height:25px;
     display:flex;
     flex-direction:column;
     align-items: left;
