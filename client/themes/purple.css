@@ -38,7 +38,8 @@
 
 #chatbar{
     position: absolute;
-    top: 3px;
+    top: 6px;
+    left: 5px;
     font-size: 15px;
     width: calc(100% - 132px);
 }
@@ -47,7 +48,16 @@
     background-color: #452E81;
 }
 
+#send_button{
+    position: absolute;
+    right: 0px;
+    background: white;
+}
 
+#send_button span{
+    color: black;
+    left: -20px;
+}
 
 #log_cont{
     background: #898989;
