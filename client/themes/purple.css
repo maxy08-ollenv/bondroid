@@ -50,5 +50,13 @@
 
 
 #log_cont{
-    background-color: black;
+    background: #898989;
+    border: 1px solid transparent;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+
+#log_body{
+    background: black;
+    color: white;
 }
