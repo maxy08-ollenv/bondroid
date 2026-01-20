@@ -853,10 +853,21 @@ span .bubble_text{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.topbarmobile {
+    position:relative;
+    background: #ffffff;
+    color:#000000;
+    height:20px;
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    z-index:999;
+    justify-content: center;
+}
 .icon {
     position:relative;
     margin-top:10px;
-    gap:5px;
+    gap: 5px;
     color:white;
     width:80px;
     height:80px;
