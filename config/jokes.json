@@ -127,8 +127,8 @@
 		],
 		[
 			{"type": 0, "text": "How do you get water in watermelons?"},
-			{"type": 0, "text": "I don't know, I'm not a fucking botanist!"},
-			{"type": 1, "anim": "shrug_back"}
+			{"type": 1, "anim": "shrug_back"},
+			{"type": 0, "text": "What the fuck were you thinking!? HUH!? DON'T DO SOMETHING BAD TO WATERMELONS!"}
 		],
 		[
 			{"type": 0, "text": "How many arabs does it take to knock down a lightbulb?"},
