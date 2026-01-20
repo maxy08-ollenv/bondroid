@@ -58,6 +58,7 @@
 
 #log_body{
     background: black;
+    padding: 10px 5px 50px 5px;
     overflow-y: scroll;
     color: white;
 }
