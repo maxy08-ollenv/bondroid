@@ -147,6 +147,7 @@ img{
 }
 body{
     margin: 0;
+    background: black;
     overscroll-behavior: none;
 }
 #banner {
@@ -417,7 +418,6 @@ The Main UI is much simpler
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #452066;
     background-image: url(./img/desktop_logo.png), url(./img/desktop_bg.png);
     background-position: top right, center;
     background-repeat: no-repeat;
