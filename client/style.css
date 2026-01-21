@@ -617,15 +617,15 @@ span .bubble_text{
 }
 
 #room_info {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     font-weight: bold;
     line-height: 1.25;
-    text-align: right;
+    text-align: left;
     padding: 7px;
     font-size: 12px;
     position: absolute;
-    bottom: 30px;
-    right: 0;
+    top: 25px;
+    left: 0;
 }
 
 
@@ -868,6 +868,7 @@ span .bubble_text{
     font-weight: bold;
     z-index:999;
     justify-content: center;
+    padding: 0px 0px 0px 4px;
 }
 #appletsUi {
     bottom: 50px;
