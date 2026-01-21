@@ -869,6 +869,16 @@ span .bubble_text{
     z-index:999;
     justify-content: center;
 }
+#appletsUi {
+    bottom: 50px;
+    margin-bottom: 40px;
+    position: absolute;
+}
+#settingsUi {
+    bottom: 50px;
+    margin-bottom: 140px;
+    position: absolute;
+}
 .icon {
     position:relative;
     margin-top:10px;
