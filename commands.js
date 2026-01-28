@@ -745,7 +745,7 @@ module.exports.commands = {
         },
         announce: (user, param) => {
                 user.room.emit("announce", {
-                        title: "Announcement from " + user.public.dispname,
+                        title: "<img src='./img/assets/bubble_i.png'>" + "Announcement from " + user.public.dispname,
                         html: `
     <table>
     <tr>
