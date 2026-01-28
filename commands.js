@@ -750,7 +750,6 @@ module.exports.commands = {
     <table>
     <tr>
     <td class="side">
-    <img src="./img/assets/bubble_i.png">
     </td>
     <td>
     <span class="win_text">${markup(param).mtext}</span>
