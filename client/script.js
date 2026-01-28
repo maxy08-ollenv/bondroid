@@ -1933,7 +1933,7 @@ async function clipboard(text) {
             }
 
             // Play sound effect
-            let sfx = new Audio("/sfx/xperror.wav");
+            let sfx = new Audio("/sfx/F1_New_MMS.ogg");
             sfx.volume = 0.5;
             sfx.play();
         });
