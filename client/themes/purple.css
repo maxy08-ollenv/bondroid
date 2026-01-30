@@ -72,3 +72,8 @@
     overflow-y: scroll;
     color: white;
 }
+
+.msWindow_body{
+    color: white;
+    background: #424142;
+}
