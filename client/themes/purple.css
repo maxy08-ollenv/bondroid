@@ -81,3 +81,25 @@
     color: white;
     background: #424142;
 }
+
+/* thank you jy */
+
+.msWindow_cont {
+    position: absolute;
+    box-sizing: border-box;
+    background: #cccccc;
+    border: 4px solid #ffffff;
+    padding: 0px 5px 5px 5px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.msBtn {
+    clear: left;
+    font-size: 13px;
+    padding: 12px 36px;
+    background-color: #F5F5F5;
+    border: 2px outset #F5F5F5;
+    outline: 1px solid rgba(0,0,0,0.7);
+    border-radius: 4px;
+}
