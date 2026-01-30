@@ -758,6 +758,9 @@ span .bubble_text{
     max-width: 100%;
     max-height: 100%;
 }
+.win_text{
+    color: white;
+}
 
 #log_title, .msWindow_title{
     margin: 6px 0px 6px 4px;
