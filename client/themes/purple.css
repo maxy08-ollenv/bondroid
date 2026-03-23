@@ -79,7 +79,7 @@
 
 .msWindow_body{
     color: white;
-    background: #424142;
+    background: transparent;
 }
 
 /* thank you jy */
@@ -87,7 +87,8 @@
 .msWindow_cont {
     position: absolute;
     box-sizing: border-box;
-    background: #cccccc;
+    background: #313131;
+    background-image: linear-gradient(0deg, #a4a4a4 70px, transparent 50px);
     border: 3px solid #ffffff;
     padding: 0px 5px 5px 5px;
     border-radius: 6px;
