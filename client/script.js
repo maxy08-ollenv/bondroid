@@ -73,7 +73,7 @@ class msWindow {
                 this.id +
                 `close'></button></p>
             <div class='msWindow_body'>` +
-                html +
+                html + <br> <br> + 
                 `</div>
             </div>
             `,
