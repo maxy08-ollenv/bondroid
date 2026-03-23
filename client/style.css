@@ -331,7 +331,7 @@ img{
     padding:30px;
     overflow-x:scroll;
     gap:20px;
-    background-color:rgba(50,50,205,0.3);
+    background-color:rgb(175 175 175);
     border-radius:3px;
 }
 #appletslogo {
@@ -838,7 +838,7 @@ span .bubble_text{
 .log_close{
     position: relative;
     border: none;
-    background-image: url("./img/assets/xpbutton.webp");
+    background: transparent;
     background-size: 100%;
     width: 22px;
     height: 22px;
